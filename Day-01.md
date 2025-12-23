@@ -1,16 +1,20 @@
-Kodekloud Azure Day 01
+# KodeKloud Azure – Day 01  
+## Solution: Creating an SSH Key in Azure
 
-Solution
+### Steps
 
-1. Navigate to https://portal.azure.com
-2. login with provided details (Email and password)
-3. Search SSH keys in top searchbar
-4. Click + Create
-5. Select existing as a Resource group
-6. Copy your kwyword from insturctions (ex datacenter-kp) and paste in "key pair name"
-7. SSH public key source - Generate new key pair
-8. SSH key type - RSA SSH Format
-9. press Review + create
-10. after validation passed, clcik create
-11. click download private key and create resource
-12. refresh
+1. Navigate to **https://portal.azure.com**
+2. Log in using the provided credentials (email and password).
+3. In the top search bar, search for **SSH keys**.
+4. Click **+ Create**.
+5. Select the existing **Resource Group**.
+6. Copy the keyword from the instructions  
+   *(e.g., `datacenter-kp`)* and paste it into **Key pair name**.
+7. Set **SSH public key source** to **Generate new key pair**.
+8. Set **SSH key type** to **RSA SSH Format**.
+9. Click **Review + Create**.
+10. After validation passes, click **Create**.
+11. Click **Download private key and create resource**.
+12. Refresh the page to confirm the SSH key is created successfully.
+
+✅ SSH key creation completed.
